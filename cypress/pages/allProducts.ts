@@ -1,7 +1,7 @@
 import '../support/command';
 
 export class allProducts {
-  /*Note: We can save a few of the selectors and strings in their relevant pages, 
+  /*Note: We can store a few of the selectors and strings in their relevant pages, 
     but since they are few in number, I saved them here.*/
   get selectors() {
     return {
