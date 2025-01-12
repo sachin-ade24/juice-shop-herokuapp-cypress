@@ -1,0 +1,19 @@
+{
+  "name": "cypress-typescript-juice-shop-herokuapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write 'cypress/**/*.{js,ts,json,css,md}'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "cypress": "^13.17.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
