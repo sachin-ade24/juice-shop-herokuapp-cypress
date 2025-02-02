@@ -5,7 +5,7 @@ import {
 } from '../pages/allProducts';
 import '../support/command';
 
-describe('Task 1: Automation Script', () => {
+describe('Test 1: Automation Script', () => {
   it('navigates to the URL and verifies the URL as well as title', () => {
     cy.url().then((url) => {
       expect(url).to.be.equal(`${allProds.strings.EXPECTED_URL}/#/`);

@@ -6,7 +6,7 @@ import {
   userRegstrn,
 } from '../pages/userRegistration';
 
-describe('Task 3: Automation Script', () => {
+describe('Test 3: Automation Script', () => {
   it(`navigates to the URL`, () => {
     cy.url().then((url) => {
       let registrationUrl = `${url}register`;

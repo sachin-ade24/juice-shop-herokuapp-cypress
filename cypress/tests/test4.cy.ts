@@ -15,7 +15,7 @@ import { selectAddressAndContinue } from '../pages/selectAddress';
 import { verifyTheThankYouMsg } from '../pages/thankYouForPurchase';
 import { addAndDeleteItem } from '../pages/yourBasket';
 
-describe('Task 4: Automation Script', () => {
+describe('Test 4: Automation Script', () => {
   it('does login', () => {
     cy.visit(`${Cypress.env('baseUrl')}/#/login`);
     completeTheLogInProcess();
